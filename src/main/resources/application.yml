@@ -1,0 +1,13 @@
+user:
+  jms:
+    username: JMS Username
+    password: secretpass
+    url: qwertyURL
+
+---
+spring:
+  profiles: de
+
+user:
+  jms:
+    username: JMS Username $$$$$$$$ German
